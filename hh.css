@@ -1,0 +1,127 @@
+.button_cont {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color:#030637;
+    box-sizing: border-box;
+    animation: starAnimation 30s linear infinite; /* Add animation for stars */
+}
+
+
+h1 {
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+.title {
+    color: #C7C8CC;
+    /* Change to a golden color for the title */
+    font-weight: 500;
+    font-size: 120px;
+    margin-bottom: 60px; /* Increase margin-bottom for more gap */
+    margin-top: 70px;    /* Add margin-top for gap between list icon and container */
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 0.40rem;
+    transition: 0.5s;
+    font-size: 1.15rem;
+    background-color: #1a1a1a; /* Dark gray input background */
+    color: #fff; /* White text */
+}
+
+.add {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #436850 /* Purple color */
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0.25rem;
+}
+
+.add:hover {
+    background: #5b1670; /* Darker purple on hover */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.item_input {
+    background: #C6DCBA; /* Green color */
+    outline: none;
+    border: 3px solid #f5e2fd;
+    padding: 10px;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+    border-radius: 5px;
+}
+
+.remove {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+    color: #1F2544; /* Orange color */
+}
+
+.remove_btn {
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #e53935; /* Red color */
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    height: 55px;
+    width: 150px;
+}
+
+.remove_btn:hover {
+    background: #c62828; /* Darker red on hover */
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+}
+
+
+
+
